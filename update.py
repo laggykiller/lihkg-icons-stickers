@@ -12,7 +12,7 @@ TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
 TELEGRAM_USERID = os.environ.get('TELEGRAM_USERID')
 
 def update_icons():
-    os.system('git submodule update --remote')
+    os.system('git submodule foreach git pull origin main')
 
 def get_regen_packs(data_old: dict, data_new: dict) -> list:
     regen_packs = []
