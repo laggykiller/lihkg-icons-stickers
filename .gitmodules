@@ -1,0 +1,3 @@
+[submodule "lihkg-icons"]
+	path = lihkg-icons
+	url = https://github.com/laggykiller/lihkg-icons.git

@@ -1,0 +1,140 @@
+{
+    "signal": {
+        "size_max": {
+            "img": 300000,
+            "vid": 300000
+        },
+        "format": {
+            "img": ".png",
+            "vid": ".apng"
+        },
+        "fps": {
+            "min": 30,
+            "max": 30,
+            "power": -0.5
+        },
+        "res": {
+            "w": {
+                "min": 128,
+                "max": 512
+            },
+            "h": {
+                "min": 128,
+                "max": 512
+            },
+            "power": 3
+        },
+        "quality": {
+            "min": 10,
+            "max": 95,
+            "power": 3
+        },
+        "color": {
+            "min": 32,
+            "max": 257,
+            "power": 3
+        },
+        "duration": {
+            "min": 0,
+            "max": 3000
+        },
+        "bg_color": "00000000",
+        "steps": 16,
+        "fake_vid": false,
+        "scale_filter": "nearest",
+        "quantize_method": "fastoctree",
+        "default_emoji": "😀"
+    },
+    "telegram": {
+        "size_max": {
+            "img": 512000,
+            "vid": 256000
+        },
+        "format": {
+            "img": ".png",
+            "vid": ".webm"
+        },
+        "fps": {
+            "min": 30,
+            "max": 30,
+            "power": -0.5
+        },
+        "res": {
+            "w": {
+                "min": 512,
+                "max": 512
+            },
+            "h": {
+                "min": 512,
+                "max": 512
+            },
+            "power": 3
+        },
+        "quality": {
+            "min": 10,
+            "max": 95,
+            "power": 3
+        },
+        "color": {
+            "min": 32,
+            "max": 257,
+            "power": 3
+        },
+        "duration": {
+            "min": 0,
+            "max": 3000
+        },
+        "bg_color": "00000000",
+        "steps": 16,
+        "fake_vid": false,
+        "scale_filter": "nearest",
+        "quantize_method": "fastoctree",
+        "default_emoji": "😀"
+    },
+    "whatsapp": {
+        "size_max": {
+            "img": 100000,
+            "vid": 500000
+        },
+        "format": {
+            "img": ".webp",
+            "vid": ".webp"
+        },
+        "fps": {
+            "min": 30,
+            "max": 30,
+            "power": -0.5
+        },
+        "res": {
+            "w": {
+                "min": 512,
+                "max": 512
+            },
+            "h": {
+                "min": 512,
+                "max": 512
+            },
+            "power": 3
+        },
+        "quality": {
+            "min": 0,
+            "max": 100,
+            "power": 3
+        },
+        "color": {
+            "min": 32,
+            "max": 257,
+            "power": 3
+        },
+        "duration": {
+            "min": 8,
+            "max": 10000
+        },
+        "bg_color": "00000000",
+        "steps": 16,
+        "fake_vid": true,
+        "scale_filter": "nearest",
+        "quantize_method": "fastoctree",
+        "default_emoji": "😀"
+    }
+}

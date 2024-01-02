@@ -1,0 +1,39 @@
+name: Update stickers
+
+on:
+  schedule:
+    - cron: "2 0 * * *"
+  push:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+      with:
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+        submodules: recursive
+    - name: Extract branch name
+      shell: bash
+      run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+      id: extract_branch
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+        allow-prereleases: true
+    - name: Update stickers
+      env:
+        SIGNAL_PASSWORD: ${{ secrets.SIGNAL_PASSWORD }}
+        SIGNAL_UUID: ${{ secrets.SIGNAL_UUID }}
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+        TELEGRAM_USERID: ${{ secrets.TELEGRAM_USERID }}
+      run: |
+        pip install -r requirements.txt
+        python update.py
+    - name: Commit & Push changes
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        message: Update stickers
+        branch: ${{ steps.extract_branch.outputs.branch }}

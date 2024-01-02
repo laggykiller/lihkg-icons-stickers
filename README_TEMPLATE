@@ -1,0 +1,38 @@
+# Lihkg icons sticker packs
+Unofficial [LIHKG (連登)](https://lihkg.com/) icons sticker packs, automatically regenerated when there is update. Updated periodically with github action.
+
+Note that this repo is not official. To get official stickers, 
+please download LIHKG official application.
+
+LIHKG icons from https://github.com/laggykiller/lihkg-icons
+Conversion to sticker packs by https://github.com/laggykiller/sticker-convert
+
+## Downloads
+{body}
+
+## Importing .wastickers into WhatsApp
+1. Download Sticker maker on your phone [[iOS version](https://apps.apple.com/us/app/sticker-maker-studio/id1443326857) | [Android version](https://play.google.com/store/apps/details?id=com.marsvard.stickermakerforwhatsapp)]
+2. Transfer the .wastickers file into your phone
+3. Share the file to Sticker Maker app
+4. Inside Sticker Maker app, you can then import the stickers into WhatsApp
+
+## For developers
+To manually update:
+1. `pip install -r requirements.txt`
+2. `python update.py`
+
+If you want to force update specifc pack(s), you can specify on command line. Examples:
+```
+python update.py mouse-signal-gif dog-telegram-png
+python update.py mouse-signal # gif and png of mouse, Signal sticker pack
+python update.py "mouse-*-gif" # gif of mouse, all supported sticker pack
+python update.py mouse # gif and png of mouse, all supported sticker pack
+python update.py "*-signal-gif" # gif of all packs, all supported sticker pack
+python update.py "*" # Everything
+```
+
+Note that the following secrets have to be set for Github action to work:
+- SIGNAL_UUID
+- SIGNAL_PASSWORD
+- TELEGRAM_TOKEN
+- TELEGRAM_USERID
