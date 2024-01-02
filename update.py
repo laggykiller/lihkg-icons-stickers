@@ -97,15 +97,27 @@ def generate_pack(sticker_paths: list, pack: str, export_type: str, fmt: str) ->
         if SIGNAL_UUID:
             cmd.append(f'--signal-uuid')
             cmd.append(SIGNAL_UUID)
+        else:
+            print('WARNING: SIGNAL_UUID not set')
+            
         if SIGNAL_PASSWORD:
             cmd.append(f'--signal-password')
             cmd.append(SIGNAL_PASSWORD)
+        else:
+            print('WARNING: SIGNAL_PASSWORD not set')
+
         if TELEGRAM_TOKEN:
             cmd.append(f'--telegram-token')
             cmd.append(TELEGRAM_TOKEN)
+        else:
+            print('WARNING: TELEGRAM_TOKEN not set')
+
         if TELEGRAM_USERID:
             cmd.append(f'--telegram-userid')
             cmd.append(TELEGRAM_USERID)
+        else:
+            print('WARNING: TELEGRAM_USERID not set')
+
         if fmt == 'gif':
             cmd.append('--fake-vid')
         
