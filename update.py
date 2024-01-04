@@ -90,7 +90,7 @@ def generate_pack(sticker_paths: list, pack: str, export_type: str, fmt: str) ->
             '--author', 'LIHKG_unofficial',
             f'--title', pack_name,
             f'--export-{export_type}',
-            '--steps', '2',
+            '--scale-filter', 'nearest',
             '--no-confirm'
         ]
     
