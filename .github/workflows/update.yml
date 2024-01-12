@@ -18,6 +18,11 @@ jobs:
       run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
       id: extract_branch
     - name: Update stickers
+      env:
+        SIGNAL_PASSWORD: ${{ secrets.SIGNAL_PASSWORD }}
+        SIGNAL_UUID: ${{ secrets.SIGNAL_UUID }}
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+        TELEGRAM_USERID: ${{ secrets.TELEGRAM_USERID }}
       run: |
         pip install -r requirements.txt
         python update.py
