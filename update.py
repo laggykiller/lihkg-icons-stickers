@@ -1,21 +1,25 @@
-import os
-import subprocess
-import json
 import itertools
+import json
+import os
 import shutil
-from datetime import datetime
+import subprocess
 import tempfile
+from typing import Any, Dict, List, Union
+from datetime import datetime
 
 SIGNAL_UUID = os.environ.get('SIGNAL_UUID')
 SIGNAL_PASSWORD = os.environ.get('SIGNAL_PASSWORD')
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
 TELEGRAM_USERID = os.environ.get('TELEGRAM_USERID')
 
+StickerPacksUrlType = Dict[str, Dict[str, Union[Dict[str, List[str]], str]]]
+LimojiSortedDictType = Dict[str, Dict[str, Any]]
+
 def update_icons():
     os.system('git submodule foreach git pull origin main')
 
-def get_regen_packs(data_old: dict, data_new: dict) -> list:
-    regen_packs = []
+def get_regen_packs(data_old: LimojiSortedDictType, data_new: LimojiSortedDictType) -> List[str]:
+    regen_packs: List[str] = []
 
     for pack_new, v_new in data_new.items():
         icons_new = set(
@@ -28,6 +32,7 @@ def get_regen_packs(data_old: dict, data_new: dict) -> list:
             continue
         
         v_old = data_old.get(pack_new)
+        assert v_old
         icons_old = set(
             [i[1] for i in v_old.get('icons', [])] +
             [i[1] for i in v_old.get('special', [])]
@@ -42,7 +47,7 @@ def get_regen_packs(data_old: dict, data_new: dict) -> list:
 
     return regen_packs
 
-def generate_packs(data: dict, sticker_packs_url: dict, pack: str):
+def generate_packs(data: LimojiSortedDictType, sticker_packs_url: StickerPacksUrlType, pack: str):
     sticker_paths = data[pack].get('icons', [])
     sticker_paths += data[pack].get('special', [])
 
@@ -55,10 +60,10 @@ def generate_packs(data: dict, sticker_packs_url: dict, pack: str):
             sticker_packs_url[pack] = {}
         if not sticker_packs_url[pack].get(export_type):
             sticker_packs_url[pack][export_type] = {}
-        sticker_packs_url[pack][export_type][fmt] = result
+        sticker_packs_url[pack][export_type][fmt] = result  # type: ignore
     sticker_packs_url[pack]['update'] = datetime.today().strftime('%Y-%m-%d')
 
-def generate_pack(sticker_paths: list, pack: str, export_type: str, fmt: str) -> list:
+def generate_pack(sticker_paths: List[str], pack: str, export_type: str, fmt: str) -> List[str]:
     if fmt == 'gif':
         pack_name = 'LIHKG_' + pack
         idx = 1
@@ -128,19 +133,19 @@ def generate_pack(sticker_paths: list, pack: str, export_type: str, fmt: str) ->
             return f.read().strip().split('\n')
     else:
         os.remove(f'{output_dir}/export-result.txt')
-        wastickers_urls = []
+        wastickers_urls: List[str] = []
         for f in os.listdir(output_dir):
             if os.path.splitext(f)[1] == '.wastickers':
                 url = f'./{output_dir}/{f}?raw=1'
                 wastickers_urls.append(url)
         return wastickers_urls
 
-def update_readme(data: dict, sticker_packs_url: dict):
+def update_readme(data: LimojiSortedDictType, sticker_packs_url: StickerPacksUrlType):
     with open('README_TEMPLATE') as f:
         readme = f.read()
     
     with open('lihkg-icons/jsons/mapping.json') as f:
-        mapping = json.load(f)
+        mapping: Dict[str, str] = json.load(f)
 
     body = '| Code | Name | Preview | Date | WhatsApp | Signal | Telegram |\n'
     body += '| --- | --- | --- | --- | --- | --- | --- |\n'
@@ -148,8 +153,8 @@ def update_readme(data: dict, sticker_packs_url: dict):
     for pack, v1 in sticker_packs_url.items():
         pack_zh = mapping.get(pack, pack)
 
-        pack_paths = [i[1] for i in data.get(pack).get('icons')]
-        pack_paths += [i[1] for i in data.get(pack).get('special')]
+        pack_paths = [i[1] for i in data.get(pack, {}).get('icons', [])]
+        pack_paths += [i[1] for i in data.get(pack, {}).get('special', [])]
 
         preview_path = 'https://raw.githubusercontent.com/laggykiller/lihkg-icons/main/' + pack_paths[0]
         preview_name = os.path.split(preview_path)[-1]
@@ -161,6 +166,7 @@ def update_readme(data: dict, sticker_packs_url: dict):
 
             link_strs[export_type] = ''
             
+            assert not isinstance(v2, str)
             for fmt, links in v2.items():
                 if fmt == 'png':
                     pack_name = pack + '_static'
@@ -182,8 +188,8 @@ def main():
     if regen:
         print('sticker_packs directory missing, regenerating all packs')
         os.mkdir('sticker_packs')
-        data_old = {}
-        sticker_packs_url = {}
+        data_old: LimojiSortedDictType = {} 
+        sticker_packs_url: StickerPacksUrlType = {}
     else:
         with open('lihkg-icons/jsons/limoji_sorted.json') as f:
             data_old = json.load(f)

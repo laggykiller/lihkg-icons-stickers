@@ -234,7 +234,7 @@
                 "./sticker_packs/mouse/whatsapp/png/LIHKG_mouse_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-01-05"
+        "update": "2024-03-19"
     },
     "cat": {
         "signal": {
@@ -353,10 +353,10 @@
     "dragon": {
         "signal": {
             "gif": [
-                "https://signal.art/addstickers/#pack_id=d256a629a348feaff20da363397aaff8&pack_key=316b9ddb4fa0f5d3b08a395d3d40b48d9d3db6affff6d8d2381a7c3162888aa3"
+                "https://signal.art/addstickers/#pack_id=5377edc821f6540c81dd70f39881c5f5&pack_key=f61752edf5ff2848a72459071b484de7018e08e5a1d288122cbe3be3af89bac9"
             ],
             "png": [
-                "https://signal.art/addstickers/#pack_id=a5a68e841146cede192bc3f935b78eb8&pack_key=d083410769b69e98fc3abe5bbfd6b762616e52781b312006971f6cade3e390e7"
+                "https://signal.art/addstickers/#pack_id=78913c816814907c896d489d7e36fefe&pack_key=1b3f33e54bf1b2a58b86e63ab7b212a3b48ba5e5fc4404a4d5b169b263150ba1"
             ]
         },
         "telegram": {
@@ -377,15 +377,15 @@
                 "./sticker_packs/dragon/whatsapp/png/LIHKG_dragon_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-01-05"
+        "update": "2024-03-19"
     },
     "hb": {
         "signal": {
             "gif": [
-                "https://signal.art/addstickers/#pack_id=ee6cddc648c888e031712f96c0ab2f48&pack_key=ab5565e8408d0563cef966790ac28291d2198a15d6a85bf92d135aca34574685"
+                "https://signal.art/addstickers/#pack_id=30145865514306237bea9365d84b991a&pack_key=29110aad6de66f71d83d66258a49b6435ff7c06c8050ff4acdfb6afee270efa4"
             ],
             "png": [
-                "https://signal.art/addstickers/#pack_id=e889c2c69cc570e189f476c2c3e84fdc&pack_key=8ee1aa82d6d86d1b61a196516ef2ea71f6d3cda160fa57965e3dafe0a7042b86"
+                "https://signal.art/addstickers/#pack_id=2251ba35b0ccbfa0b9a50dfc0a18fb1d&pack_key=3d9832d159b82f5f1d16305888cd73bdbefb4c955aabb51db86ae43a3b6c1d3f"
             ]
         },
         "telegram": {
@@ -398,13 +398,15 @@
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/hb/whatsapp/gif/LIHKG_hb.wastickers?raw=1"
+                "./sticker_packs/hb/whatsapp/gif/LIHKG_hb.wastickers?raw=1",
+                "./sticker_packs/hb/whatsapp/gif/LIHKG_hb-1.wastickers?raw=1"
             ],
             "png": [
+                "./sticker_packs/hb/whatsapp/png/LIHKG_hb_static-1.wastickers?raw=1",
                 "./sticker_packs/hb/whatsapp/png/LIHKG_hb_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-01-05"
+        "update": "2024-03-19"
     },
     "fatcmoji": {
         "signal": {
@@ -470,10 +472,10 @@
     "rip": {
         "signal": {
             "gif": [
-                "https://signal.art/addstickers/#pack_id=d7b96868e7d689e6f22311ecd15a0004&pack_key=4e51f75aba0cec74dad022e3c17594321888e2411c6af3e076a4d7803fd305b3"
+                "https://signal.art/addstickers/#pack_id=8c93827297105ed69c5b8883acce64fe&pack_key=3e29a9ccfe8bc26d01e6c8693248e557aaa5f18a78c72b10ec1291f6a1613c2b"
             ],
             "png": [
-                "https://signal.art/addstickers/#pack_id=1f86d085916f4a9326d32c03392a5ba0&pack_key=89561a4529e95d295c7c45a95eae0368925501675e5c30dd281e0aa588b9e6bb"
+                "https://signal.art/addstickers/#pack_id=f3655661f551c79dad90916ae1869c34&pack_key=929476773464d4d08ff4d482a5c7c6f39fc4ba0918d694c834676356cfa474f1"
             ]
         },
         "telegram": {
@@ -492,7 +494,7 @@
                 "./sticker_packs/rip/whatsapp/png/LIHKG_rip_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-01-05"
+        "update": "2024-03-19"
     },
     "xm": {
         "signal": {
