@@ -25,7 +25,10 @@ If you want to force update specify pack, you can specify on command line. Examp
 ```
 python update.py mouse-signal-gif dog-telegram-png
 python update.py mouse-signal # gif and png of mouse, Signal sticker pack
+python update.py "mouse-*-gif" # gif of mouse, all supported sticker pack
 python update.py mouse # gif and png of mouse, all supported sticker pack
+python update.py "*-signal-gif" # gif of all packs, all supported sticker pack
+python update.py "*" # Everything
 ```
 
 Note that the following secrets have to be set for Github action to work:

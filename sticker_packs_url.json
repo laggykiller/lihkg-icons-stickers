@@ -213,7 +213,7 @@
                 "https://signal.art/addstickers/#pack_id=edc5f10f4640a1c9602d3f7a2e1a2758&pack_key=69261b24bac7a9a70ad8026f73e38089af85afe3dd03c19c99e8dbb2bbbd6686"
             ],
             "png": [
-                "https://signal.art/addstickers/#pack_id=e3b8396a604195b862c4945f9d2cb1ac&pack_key=f813a1e5e05a8c1dd1785a65495bf093875185cb88d21d1d1fc5afddece5f5a0"
+                "https://signal.art/addstickers/#pack_id=fa09dc7bac083768627fad21ebf85f63&pack_key=9f2a98a0d07bdb74cfb36d9f8ec3861c88fea715e9263ec4e92ad663ab23df12"
             ]
         },
         "telegram": {
@@ -353,10 +353,10 @@
     "dragon": {
         "signal": {
             "gif": [
-                "https://signal.art/addstickers/#pack_id=5377edc821f6540c81dd70f39881c5f5&pack_key=f61752edf5ff2848a72459071b484de7018e08e5a1d288122cbe3be3af89bac9"
+                "https://signal.art/addstickers/#pack_id=8e12df3e4e562b2754d76a86851cf9bf&pack_key=268e8259d904a1344e16ceececacca1ffc4b7cca7fe32b266606ee09299cb290"
             ],
             "png": [
-                "https://signal.art/addstickers/#pack_id=78913c816814907c896d489d7e36fefe&pack_key=1b3f33e54bf1b2a58b86e63ab7b212a3b48ba5e5fc4404a4d5b169b263150ba1"
+                "https://signal.art/addstickers/#pack_id=aa49ba4d356d13fa6ba2d014f30940b9&pack_key=2e8f04c38fae55075547c6ed29106fb4208ce1ac6842d8028feaa58ea45f4be4"
             ]
         },
         "telegram": {
@@ -377,7 +377,7 @@
                 "./sticker_packs/dragon/whatsapp/png/LIHKG_dragon_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-19"
+        "update": "2024-03-25"
     },
     "hb": {
         "signal": {
@@ -494,7 +494,7 @@
                 "./sticker_packs/rip/whatsapp/png/LIHKG_rip_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-19"
+        "update": "2024-03-25"
     },
     "xm": {
         "signal": {
