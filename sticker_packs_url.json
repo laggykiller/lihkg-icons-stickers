@@ -210,10 +210,10 @@
     "mouse": {
         "signal": {
             "gif": [
-                "https://signal.art/addstickers/#pack_id=9e33e3566a3e57408033cbe248b1eb49&pack_key=76fd39ab49adc93a7320d2234d44dfad99f711dd08960af3efbafa86a1699a2b"
+                "https://signal.art/addstickers/#pack_id=edc5f10f4640a1c9602d3f7a2e1a2758&pack_key=69261b24bac7a9a70ad8026f73e38089af85afe3dd03c19c99e8dbb2bbbd6686"
             ],
             "png": [
-                "https://signal.art/addstickers/#pack_id=b2e90c70d80ed84104b2a1e97c8e4229&pack_key=af1c6bc63cbe445d24b85c5846dba21a3d4ed869e6291f707a1c7eeb1685511f"
+                "https://signal.art/addstickers/#pack_id=e3b8396a604195b862c4945f9d2cb1ac&pack_key=f813a1e5e05a8c1dd1785a65495bf093875185cb88d21d1d1fc5afddece5f5a0"
             ]
         },
         "telegram": {
@@ -234,7 +234,7 @@
                 "./sticker_packs/mouse/whatsapp/png/LIHKG_mouse_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-19"
+        "update": "2024-03-25"
     },
     "cat": {
         "signal": {

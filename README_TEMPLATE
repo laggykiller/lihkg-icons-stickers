@@ -21,6 +21,13 @@ To manually update:
 1. `pip install -r requirements.txt`
 2. `python update.py`
 
+If you want to force update specify pack, you can specify on command line. Examples:
+```
+python update.py mouse-signal-gif dog-telegram-png
+python update.py mouse-signal # gif and png of mouse, Signal sticker pack
+python update.py mouse # gif and png of mouse, all supported sticker pack
+```
+
 Note that the following secrets have to be set for Github action to work:
 - SIGNAL_UUID
 - SIGNAL_PASSWORD

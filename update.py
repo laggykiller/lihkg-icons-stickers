@@ -3,8 +3,9 @@ import json
 import os
 import shutil
 import subprocess
+import sys
 import tempfile
-from typing import Any, Dict, List, Union
+from typing import Any, Dict, List, Tuple, Union
 from datetime import datetime
 
 SIGNAL_UUID = os.environ.get('SIGNAL_UUID')
@@ -14,12 +15,22 @@ TELEGRAM_USERID = os.environ.get('TELEGRAM_USERID')
 
 StickerPacksUrlType = Dict[str, Dict[str, Union[Dict[str, List[str]], str]]]
 LimojiSortedDictType = Dict[str, Dict[str, Any]]
+ExportTypesType = Tuple[str, ...]
+FmtsType = Tuple[str, ...]
+RegenPackType = List[Tuple[str, ExportTypesType, FmtsType]]
+
+DEFAULT_EXPORT_TYPES: ExportTypesType = ('signal', 'telegram', 'whatsapp')
+DEFAULT_FMTS: FmtsType = ('gif', 'png')
 
 def update_icons():
     os.system('git submodule foreach git pull origin main')
 
-def get_regen_packs(data_old: LimojiSortedDictType, data_new: LimojiSortedDictType) -> List[str]:
-    regen_packs: List[str] = []
+def get_regen_packs(
+        data_old: LimojiSortedDictType,
+        data_new: LimojiSortedDictType,
+    ) -> RegenPackType:
+
+    regen_packs: RegenPackType = []
 
     for pack_new, v_new in data_new.items():
         icons_new = set(
@@ -28,7 +39,7 @@ def get_regen_packs(data_old: LimojiSortedDictType, data_new: LimojiSortedDictTy
         )
 
         if pack_new not in os.listdir('sticker_packs'):
-            regen_packs.append(pack_new)
+            regen_packs.append((pack_new, DEFAULT_EXPORT_TYPES, DEFAULT_FMTS))
             continue
         
         v_old = data_old.get(pack_new)
@@ -39,20 +50,23 @@ def get_regen_packs(data_old: LimojiSortedDictType, data_new: LimojiSortedDictTy
         )
 
         if pack_new not in set(data_old.keys()):
-            regen_packs.append(pack_new)
+            regen_packs.append((pack_new, DEFAULT_EXPORT_TYPES, DEFAULT_FMTS))
             continue
         
         if icons_old != icons_new:
-            regen_packs.append(pack_new)
+            regen_packs.append((pack_new, DEFAULT_EXPORT_TYPES, DEFAULT_FMTS))
 
     return regen_packs
 
-def generate_packs(data: LimojiSortedDictType, sticker_packs_url: StickerPacksUrlType, pack: str):
+def generate_packs(
+        data: LimojiSortedDictType,
+        sticker_packs_url: StickerPacksUrlType,
+        pack: str,
+        export_types: ExportTypesType = DEFAULT_EXPORT_TYPES,
+        fmts: FmtsType = DEFAULT_FMTS,
+    ):
     sticker_paths = data[pack].get('icons', [])
     sticker_paths += data[pack].get('special', [])
-
-    export_types = ('signal', 'telegram', 'whatsapp')
-    fmts = ('gif', 'png')
 
     for export_type, fmt in itertools.product(export_types, fmts):
         result = generate_pack(sticker_paths, pack, export_type, fmt)
@@ -184,6 +198,22 @@ def update_readme(data: LimojiSortedDictType, sticker_packs_url: StickerPacksUrl
         f.write(readme)
 
 def main():
+    regen_packs: RegenPackType = []
+    for i in sys.argv[1:]:
+        item_info = i.split("-")
+        pack = item_info[0]
+        export_types = (item_info[1],) if len(item_info) >= 2 else DEFAULT_EXPORT_TYPES
+        fmts = (item_info[2],) if len(item_info) >= 3 else DEFAULT_FMTS
+
+        if export_types[0] not in DEFAULT_EXPORT_TYPES:
+            print(f"Invalid export type {export_types[0]}. Accepts: {DEFAULT_EXPORT_TYPES}")
+            return
+        if fmts[0] not in DEFAULT_FMTS:
+            print(f"Invalid format {fmts[0]}. Accepts: {DEFAULT_FMTS}")
+            return
+
+        regen_packs.append((pack, export_types, fmts))
+    
     regen = not os.path.isdir('sticker_packs')
     if regen:
         print('sticker_packs directory missing, regenerating all packs')
@@ -205,9 +235,10 @@ def main():
     with open('lihkg-icons/jsons/limoji_sorted.json') as f:
         data_new = json.load(f)
 
-    regen_packs = get_regen_packs(data_old, data_new)
-    for pack in regen_packs:
-        generate_packs(data_new, sticker_packs_url, pack)
+    regen_packs.extend(get_regen_packs(data_old, data_new))
+
+    for pack, export_types, fmts in regen_packs:
+        generate_packs(data_new, sticker_packs_url, pack, export_types, fmts)
     
         with open('sticker_packs_url.json', 'w+') as f:
             json.dump(sticker_packs_url, f, indent=4)
