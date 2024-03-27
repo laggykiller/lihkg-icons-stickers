@@ -25,7 +25,7 @@
             "power": 3
         },
         "quality": {
-            "min": 10,
+            "min": 50,
             "max": 95,
             "power": 5
         },
@@ -71,7 +71,7 @@
             "power": 3
         },
         "quality": {
-            "min": 10,
+            "min": 50,
             "max": 95,
             "power": 5
         },
@@ -117,7 +117,7 @@
             "power": 3
         },
         "quality": {
-            "min": 10,
+            "min": 50,
             "max": 95,
             "power": 5
         },
