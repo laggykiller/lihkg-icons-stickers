@@ -112,7 +112,15 @@ def generate_pack(sticker_paths: List[str], pack: str, export_type: str, fmt: st
             f"--export-{export_type}",
             "--no-confirm"
         ]
-    
+
+        if pack == "mf" and export_type == "whatsapp":
+            cmd.append("--fps-min")
+            cmd.append("8")
+            cmd.append("--fps-power")
+            cmd.append("-1")
+            cmd.append("--duration-max")
+            cmd.append("3000")
+
         if SIGNAL_UUID:
             cmd.append(f"--signal-uuid")
             cmd.append(SIGNAL_UUID)
@@ -140,7 +148,7 @@ def generate_pack(sticker_paths: List[str], pack: str, export_type: str, fmt: st
         if fmt == "gif":
             cmd.append("--fake-vid")
         
-        subprocess.run(cmd)
+        subprocess.run(cmd, check=True)
 
     if export_type != "whatsapp":
         with open(f"{output_dir}/export-result.txt") as f:
@@ -198,6 +206,7 @@ def update_readme(data: LimojiSortedDictType, sticker_packs_url: StickerPacksUrl
         f.write(readme)
 
 def main():
+    import time
     regen_packs: RegenPackType = []
     for i in sys.argv[1:]:
         item_info = i.split("-")
@@ -222,7 +231,7 @@ def main():
             fmts = (fmt,)
         
         if pack == "*":
-            for i in os.listdir("sticker_packs"):
+            for i in sorted(os.listdir("sticker_packs")):
                 regen_packs.append((i, export_types, fmts))
         else:
             regen_packs.append((pack, export_types, fmts))
@@ -255,6 +264,10 @@ def main():
     
         with open("sticker_packs_url.json", "w+") as f:
             json.dump(sticker_packs_url, f, indent=4)
+
+        # for i in range(300):
+        #     print(i)
+        #     time.sleep(1)
     
     update_readme(data_new, sticker_packs_url)
 

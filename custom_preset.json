@@ -25,9 +25,9 @@
             "power": 3
         },
         "quality": {
-            "min": 50,
+            "min": 10,
             "max": 95,
-            "power": 5
+            "power": 3
         },
         "color": {
             "min": 32,
@@ -57,7 +57,7 @@
         "fps": {
             "min": 30,
             "max": 30,
-            "power": -0.3
+            "power": -0.5
         },
         "res": {
             "w": {
@@ -71,9 +71,9 @@
             "power": 3
         },
         "quality": {
-            "min": 50,
+            "min": 10,
             "max": 95,
-            "power": 5
+            "power": 3
         },
         "color": {
             "min": 32,
@@ -103,7 +103,7 @@
         "fps": {
             "min": 30,
             "max": 30,
-            "power": -0.3
+            "power": -0.5
         },
         "res": {
             "w": {
@@ -117,9 +117,9 @@
             "power": 3
         },
         "quality": {
-            "min": 50,
+            "min": 10,
             "max": 95,
-            "power": 5
+            "power": 3
         },
         "color": {
             "min": 32,
