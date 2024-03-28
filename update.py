@@ -206,7 +206,6 @@ def update_readme(data: LimojiSortedDictType, sticker_packs_url: StickerPacksUrl
         f.write(readme)
 
 def main():
-    import time
     regen_packs: RegenPackType = []
     for i in sys.argv[1:]:
         item_info = i.split("-")
@@ -264,10 +263,6 @@ def main():
     
         with open("sticker_packs_url.json", "w+") as f:
             json.dump(sticker_packs_url, f, indent=4)
-
-        # for i in range(300):
-        #     print(i)
-        #     time.sleep(1)
     
     update_readme(data_new, sticker_packs_url)
 
