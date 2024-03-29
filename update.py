@@ -113,13 +113,21 @@ def generate_pack(sticker_paths: List[str], pack: str, export_type: str, fmt: st
             "--no-confirm"
         ]
 
-        if pack == "mf" and export_type == "whatsapp":
-            cmd.append("--fps-min")
-            cmd.append("8")
-            cmd.append("--fps-power")
-            cmd.append("-1")
-            cmd.append("--duration-max")
-            cmd.append("3000")
+        if pack == "mf":
+            if export_type == "whatsapp":
+                cmd.append("--fps-min")
+                cmd.append("8")
+                cmd.append("--fps-power")
+                cmd.append("-1")
+                cmd.append("--duration-max")
+                cmd.append("3000")
+            elif export_type == "telegram":
+                cmd.append("--fps-min")
+                cmd.append("4")
+                cmd.append("--fps-power")
+                cmd.append("-1")
+                cmd.append("--duration-max")
+                cmd.append("2000")
 
         if SIGNAL_UUID:
             cmd.append(f"--signal-uuid")

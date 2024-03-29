@@ -26,7 +26,7 @@
                 "./sticker_packs/normal/whatsapp/png/LIHKG_normal_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-28"
     },
     "dog": {
         "signal": {
@@ -176,7 +176,7 @@
                 "./sticker_packs/lomoji/whatsapp/png/LIHKG_lomoji_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-28"
     },
     "pig": {
         "signal": {
@@ -205,7 +205,7 @@
                 "./sticker_packs/pig/whatsapp/png/LIHKG_pig_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-29"
     },
     "mouse": {
         "signal": {
@@ -234,7 +234,7 @@
                 "./sticker_packs/mouse/whatsapp/png/LIHKG_mouse_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-28"
     },
     "cat": {
         "signal": {
@@ -261,7 +261,7 @@
                 "./sticker_packs/cat/whatsapp/png/LIHKG_cat_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-28"
     },
     "cow": {
         "signal": {
@@ -290,7 +290,7 @@
                 "./sticker_packs/cow/whatsapp/png/LIHKG_cow_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-28"
     },
     "tiger": {
         "signal": {
@@ -319,7 +319,7 @@
                 "./sticker_packs/tiger/whatsapp/png/LIHKG_tiger_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-28"
+        "update": "2024-03-29"
     },
     "rabbit": {
         "signal": {
@@ -348,7 +348,7 @@
                 "./sticker_packs/rabbit/whatsapp/png/LIHKG_rabbit_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-29"
     },
     "dragon": {
         "signal": {
@@ -377,7 +377,7 @@
                 "./sticker_packs/dragon/whatsapp/png/LIHKG_dragon_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-28"
     },
     "hb": {
         "signal": {
@@ -494,7 +494,7 @@
                 "./sticker_packs/rip/whatsapp/png/LIHKG_rip_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-28"
+        "update": "2024-03-29"
     },
     "xm": {
         "signal": {
@@ -524,7 +524,7 @@
                 "./sticker_packs/xm/whatsapp/png/LIHKG_xm_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-28"
+        "update": "2024-03-29"
     },
     "mf": {
         "signal": {
@@ -554,7 +554,7 @@
                 "./sticker_packs/mf/whatsapp/png/LIHKG_mf_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-28"
     },
     "dogxm": {
         "signal": {
@@ -584,7 +584,7 @@
                 "./sticker_packs/dogxm/whatsapp/png/LIHKG_dogxm_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-28"
     },
     "lm2xm": {
         "signal": {
@@ -616,7 +616,7 @@
                 "./sticker_packs/lm2xm/whatsapp/png/LIHKG_lm2xm_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-28"
     },
     "lny": {
         "signal": {
@@ -648,7 +648,7 @@
                 "./sticker_packs/lny/whatsapp/png/LIHKG_lny_static-2.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-28"
     },
     "lm2lny": {
         "signal": {
@@ -710,7 +710,7 @@
                 "./sticker_packs/pigxm/whatsapp/png/LIHKG_pigxm_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-29"
     },
     "mousexm": {
         "signal": {
@@ -739,7 +739,7 @@
                 "./sticker_packs/mousexm/whatsapp/png/LIHKG_mousexm_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-28"
     },
     "catxm": {
         "signal": {
@@ -766,7 +766,7 @@
                 "./sticker_packs/catxm/whatsapp/png/LIHKG_catxm_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-28"
     },
     "cowxm": {
         "signal": {
@@ -795,7 +795,7 @@
                 "./sticker_packs/cowxm/whatsapp/png/LIHKG_cowxm_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-28"
     },
     "tigerxm": {
         "signal": {
@@ -824,7 +824,7 @@
                 "./sticker_packs/tigerxm/whatsapp/png/LIHKG_tigerxm_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-28"
+        "update": "2024-03-29"
     },
     "rabbitxm": {
         "signal": {
@@ -853,6 +853,6 @@
                 "./sticker_packs/rabbitxm/whatsapp/png/LIHKG_rabbitxm_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-27"
+        "update": "2024-03-29"
     }
 }
