@@ -58,6 +58,33 @@
         },
         "update": "2024-03-28"
     },
+    "husky": {
+        "signal": {
+            "gif": [
+                "https://signal.art/addstickers/#pack_id=c60ff2452107c3992db83b2832e648f2&pack_key=b9a2aa6bfe1d064a9ecbc2deae1af4100c08c25a2105e5f3d14ebe697009b1f5"
+            ],
+            "png": [
+                "https://signal.art/addstickers/#pack_id=dd77cacbc0fec5a42234671d4d1c80d7&pack_key=2e376cf98d3de39244cbb09b759d3841ac97575bb6ccbb6b78e423e3bff75ac2"
+            ]
+        },
+        "telegram": {
+            "gif": [
+                "https://t.me/addstickers/LIHKG_husky_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addstickers/LIHKG_husky_static_by_laggykillerstickerbot"
+            ]
+        },
+        "whatsapp": {
+            "gif": [
+                "./sticker_packs/husky/whatsapp/gif/LIHKG_husky.wastickers?raw=1"
+            ],
+            "png": [
+                "./sticker_packs/husky/whatsapp/png/LIHKG_husky_static.wastickers?raw=1"
+            ]
+        },
+        "update": "2024-04-02"
+    },
     "lm2": {
         "signal": {
             "gif": [
@@ -854,32 +881,5 @@
             ]
         },
         "update": "2024-03-29"
-    },
-    "husky": {
-        "signal": {
-            "gif": [
-                "https://signal.art/addstickers/#pack_id=c60ff2452107c3992db83b2832e648f2&pack_key=b9a2aa6bfe1d064a9ecbc2deae1af4100c08c25a2105e5f3d14ebe697009b1f5"
-            ],
-            "png": [
-                "https://signal.art/addstickers/#pack_id=dd77cacbc0fec5a42234671d4d1c80d7&pack_key=2e376cf98d3de39244cbb09b759d3841ac97575bb6ccbb6b78e423e3bff75ac2"
-            ]
-        },
-        "telegram": {
-            "gif": [
-                "https://t.me/addstickers/LIHKG_husky_by_laggykillerstickerbot"
-            ],
-            "png": [
-                "https://t.me/addstickers/LIHKG_husky_static_by_laggykillerstickerbot"
-            ]
-        },
-        "whatsapp": {
-            "gif": [
-                "./sticker_packs/husky/whatsapp/gif/LIHKG_husky.wastickers?raw=1"
-            ],
-            "png": [
-                "./sticker_packs/husky/whatsapp/png/LIHKG_husky_static.wastickers?raw=1"
-            ]
-        },
-        "update": "2024-04-02"
     }
 }
