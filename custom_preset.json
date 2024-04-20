@@ -38,7 +38,7 @@
             "min": 0,
             "max": 3000
         },
-        "bg_color": "000000",
+        "bg_color": "00000000",
         "steps": 16,
         "fake_vid": false,
         "scale_filter": "nearest",
@@ -84,7 +84,7 @@
             "min": 0,
             "max": 3000
         },
-        "bg_color": "000000",
+        "bg_color": "00000000",
         "steps": 16,
         "fake_vid": false,
         "scale_filter": "nearest",
@@ -130,7 +130,7 @@
             "min": 8,
             "max": 10000
         },
-        "bg_color": "000000",
+        "bg_color": "00000000",
         "steps": 16,
         "fake_vid": true,
         "scale_filter": "nearest",
