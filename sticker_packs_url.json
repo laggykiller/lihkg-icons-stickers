@@ -556,16 +556,15 @@
     "mf": {
         "signal": {
             "gif": [
-                "https://signal.art/addstickers/#pack_id=93c9ffd1ed43c83f91aa12023c3f8295&pack_key=52e14964c629d327eb452122c26b0b8ddaa5fc6e7f1118b20a27e0abdcf880ca"
+                "https://signal.art/addstickers/#pack_id=f06534b8c43a3b6915fd15c96c8fa993&pack_key=f8886b88166e7c55a88154299ba49da9bb01d5fabf79ff6b0daa8a167cb3f97b"
             ],
             "png": [
-                "https://signal.art/addstickers/#pack_id=abb58cd4181fa6e32e570b728c21e401&pack_key=231439ad212da008a3e1c4e7e7ba3f665c3c7e75ffe444f8b274f7863bd50cc0"
+                "https://signal.art/addstickers/#pack_id=136eb50dbe0153e6a81cdf6cf492abfd&pack_key=ac5a6a51054019b375238757a25c6650389a50ac71dbbb9639faeae6f6c4a186"
             ]
         },
         "telegram": {
             "gif": [
-                "https://t.me/addstickers/LIHKG_mf_by_laggykillerstickerbot",
-                "https://t.me/addstickers/LIHKG_mf_1_by_laggykillerstickerbot"
+                "https://t.me/addstickers/LIHKG_mf_by_laggykillerstickerbot"
             ],
             "png": [
                 "https://t.me/addstickers/LIHKG_mf_static_by_laggykillerstickerbot"
@@ -577,11 +576,11 @@
                 "./sticker_packs/mf/whatsapp/gif/LIHKG_mf.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/mf/whatsapp/png/LIHKG_mf_static.wastickers?raw=1",
-                "./sticker_packs/mf/whatsapp/png/LIHKG_mf_static-1.wastickers?raw=1"
+                "./sticker_packs/mf/whatsapp/png/LIHKG_mf_static-1.wastickers?raw=1",
+                "./sticker_packs/mf/whatsapp/png/LIHKG_mf_static.wastickers?raw=1"
             ]
         },
-        "update": "2024-03-28"
+        "update": "2024-09-14"
     },
     "dogxm": {
         "signal": {
