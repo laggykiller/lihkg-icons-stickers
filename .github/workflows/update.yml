@@ -17,6 +17,11 @@ jobs:
       shell: bash
       run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
       id: extract_branch
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+        allow-prereleases: true
     - name: Update stickers
       env:
         SIGNAL_PASSWORD: ${{ secrets.SIGNAL_PASSWORD }}
