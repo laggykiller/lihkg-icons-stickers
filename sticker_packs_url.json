@@ -880,5 +880,34 @@
             ]
         },
         "update": "2024-03-29"
+    },
+    "dragonxm": {
+        "signal": {
+            "gif": [
+                "https://signal.art/addstickers/#pack_id=86c3df3379734a275e0483db59d806d9&pack_key=e77f2588acbf34dd32705f74deca38069bb343e72dd3a976f96a46782c790d11"
+            ],
+            "png": [
+                "https://signal.art/addstickers/#pack_id=92feec64c38f06f64c726b030a2b03a6&pack_key=8c4ebd736de929ce2bc744c0112fb19e7ff534c047154e825e2778a184c8ee11"
+            ]
+        },
+        "telegram": {
+            "gif": [
+                "https://t.me/addstickers/LIHKG_dragonxm_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addstickers/LIHKG_dragonxm_static_by_laggykillerstickerbot"
+            ]
+        },
+        "whatsapp": {
+            "gif": [
+                "./sticker_packs/dragonxm/whatsapp/gif/LIHKG_dragonxm-1.wastickers?raw=1",
+                "./sticker_packs/dragonxm/whatsapp/gif/LIHKG_dragonxm.wastickers?raw=1"
+            ],
+            "png": [
+                "./sticker_packs/dragonxm/whatsapp/png/LIHKG_dragonxm_static-1.wastickers?raw=1",
+                "./sticker_packs/dragonxm/whatsapp/png/LIHKG_dragonxm_static.wastickers?raw=1"
+            ]
+        },
+        "update": "2024-12-15"
     }
 }
