@@ -88,16 +88,15 @@
     "lm2": {
         "signal": {
             "gif": [
-                "https://signal.art/addstickers/#pack_id=a4715509bf95b4e51aaa3e57726cc07e&pack_key=d0243a39c8d018f8b041e0175a784822be062069f8a2a7cefae571225e5a5be1"
+                "https://signal.art/addstickers/#pack_id=cba3d126b42c26e662e22c4551ae8409&pack_key=4ec31107cb865ab1af950bec5fcd5459d6408d93d326b6b3e079a2af9e9113b9"
             ],
             "png": [
-                "https://signal.art/addstickers/#pack_id=b0e1d1ad04d568e28e15fa10e3cf95f9&pack_key=612c70d6611a4ae05cb6e9980defd62dd96afc859514eadf8bbfc3b36d07a12a"
+                "https://signal.art/addstickers/#pack_id=f75a14d8f95e486a39d31e944fca5911&pack_key=1c0b532636b5186ab8d4ef0a422b55db821b3acedc99ac83fca7f293977c513f"
             ]
         },
         "telegram": {
             "gif": [
-                "https://t.me/addstickers/LIHKG_lm2_by_laggykillerstickerbot",
-                "https://t.me/addstickers/LIHKG_lm2_1_by_laggykillerstickerbot"
+                "https://t.me/addstickers/LIHKG_lm2_by_laggykillerstickerbot"
             ],
             "png": [
                 "https://t.me/addstickers/LIHKG_lm2_static_by_laggykillerstickerbot"
@@ -105,17 +104,19 @@
         },
         "whatsapp": {
             "gif": [
+                "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2-3.wastickers?raw=1",
                 "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2-2.wastickers?raw=1",
                 "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2.wastickers?raw=1",
                 "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2-1.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static.wastickers?raw=1",
                 "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-2.wastickers?raw=1",
-                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-1.wastickers?raw=1"
+                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-1.wastickers?raw=1",
+                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static.wastickers?raw=1",
+                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-3.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-03-01"
     },
     "fs": {
         "signal": {
