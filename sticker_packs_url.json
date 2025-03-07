@@ -88,35 +88,35 @@
     "lm2": {
         "signal": {
             "gif": [
-                "https://signal.art/addstickers/#pack_id=cba3d126b42c26e662e22c4551ae8409&pack_key=4ec31107cb865ab1af950bec5fcd5459d6408d93d326b6b3e079a2af9e9113b9"
+                "https://signal.art/addstickers/#pack_id=fcb4c1fe1a8eaee458772e08667137ff&pack_key=057247dffebcfb71e01c195d7b245abddaa273e2d3413a77f348b255939e32f6"
             ],
             "png": [
-                "https://signal.art/addstickers/#pack_id=f75a14d8f95e486a39d31e944fca5911&pack_key=1c0b532636b5186ab8d4ef0a422b55db821b3acedc99ac83fca7f293977c513f"
+                "https://signal.art/addstickers/#pack_id=380561b067a4c4f448b9076258cd0b1a&pack_key=b7d2483d0c6d4fa4301a33bd9abae316e9a03a45be9e1576027fdf03e82f0c79"
             ]
         },
         "telegram": {
             "gif": [
-                "https://t.me/addstickers/LIHKG_lm2_by_laggykillerstickerbot"
+                "https://t.me/addstickers/LIHKG_lm2_by_mcchaustickerbot"
             ],
             "png": [
-                "https://t.me/addstickers/LIHKG_lm2_static_by_laggykillerstickerbot"
+                "https://t.me/addstickers/LIHKG_lm2_static_by_mcchaustickerbot"
             ]
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2-3.wastickers?raw=1",
                 "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2-2.wastickers?raw=1",
+                "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2-3.wastickers?raw=1",
                 "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2.wastickers?raw=1",
                 "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2-1.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-2.wastickers?raw=1",
-                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-1.wastickers?raw=1",
                 "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static.wastickers?raw=1",
-                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-3.wastickers?raw=1"
+                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-2.wastickers?raw=1",
+                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-3.wastickers?raw=1",
+                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-03-01"
+        "update": "2025-03-07"
     },
     "fs": {
         "signal": {
@@ -436,34 +436,34 @@
         },
         "update": "2025-01-22"
     },
-    "fatcmoji": {
+    "fatc": {
         "signal": {
             "gif": [
-                "https://signal.art/addstickers/#pack_id=876a030b0f8dfb075c9868b22b58142b&pack_key=afd214e1ca8bf49cf993587926efae301abcc66a06a059a927b81fb9d3228d70"
+                "https://signal.art/addstickers/#pack_id=494079cfc9c289ff36cf607c35840783&pack_key=06e17cae99f80f792ef103abdfb8e2b75313f4c32d7650916bd45c39f00648a0"
             ],
             "png": [
-                "https://signal.art/addstickers/#pack_id=00e6144456bd8433bf994010f852e65e&pack_key=61dc176d5b5b0908468446a778a924e938fba89e1cf98fe53a4d9b1893d1b052"
+                "https://signal.art/addstickers/#pack_id=e1b05d34b02f7392634c9891ae628c15&pack_key=226ea7b3f2430336be1a17bc40f00599262e762195b84be67fed9c91a839fe4b"
             ]
         },
         "telegram": {
             "gif": [
-                "https://t.me/addstickers/LIHKG_fatcmoji_by_laggykillerstickerbot"
+                "https://t.me/addstickers/LIHKG_fatc_by_mcchaustickerbot"
             ],
             "png": [
-                "https://t.me/addstickers/LIHKG_fatcmoji_static_by_laggykillerstickerbot"
+                "https://t.me/addstickers/LIHKG_fatc_static_by_mcchaustickerbot"
             ]
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/fatcmoji/whatsapp/gif/LIHKG_fatcmoji.wastickers?raw=1",
-                "./sticker_packs/fatcmoji/whatsapp/gif/LIHKG_fatcmoji-1.wastickers?raw=1"
+                "./sticker_packs/fatc/whatsapp/gif/LIHKG_fatc-1.wastickers?raw=1",
+                "./sticker_packs/fatc/whatsapp/gif/LIHKG_fatc.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/fatcmoji/whatsapp/png/LIHKG_fatcmoji_static.wastickers?raw=1",
-                "./sticker_packs/fatcmoji/whatsapp/png/LIHKG_fatcmoji_static-1.wastickers?raw=1"
+                "./sticker_packs/fatc/whatsapp/png/LIHKG_fatc_static.wastickers?raw=1",
+                "./sticker_packs/fatc/whatsapp/png/LIHKG_fatc_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-03-07"
     },
     "fifa": {
         "signal": {
@@ -524,35 +524,34 @@
         },
         "update": "2025-01-22"
     },
-    "xmas": {
+    "xm": {
         "signal": {
             "gif": [
-                "https://signal.art/addstickers/#pack_id=18c1696d0fed5179eecf639724b11559&pack_key=0688d896bd45f67cc18f418a8bbd0a0f653c7850c96bdf7f375332f542725723"
+                "https://signal.art/addstickers/#pack_id=e003333c2cd992fcd3f7ad4869972fe6&pack_key=b7c74009070a1615d18b31b83d9faf0f5c09d3aadec31ba2792dbafe30aa2c52"
             ],
             "png": [
-                "https://signal.art/addstickers/#pack_id=a221437f18bdea3950ced53043c42261&pack_key=ec4576fa78e36be13944057c7f77d705cdcb8cf0de88d5c0458f208093ce921d"
+                "https://signal.art/addstickers/#pack_id=e7ccfdf7466b00468f7c0dbf5a249ad7&pack_key=8fca0bffa2e81d46f4bdbe6857481ff25464e727672ee5682d04c8ba1e7015bf"
             ]
         },
         "telegram": {
             "gif": [
-                "https://t.me/addstickers/LIHKG_xm_by_laggykillerstickerbot",
-                "https://t.me/addstickers/LIHKG_xm_1_by_laggykillerstickerbot"
+                "https://t.me/addstickers/LIHKG_xm_by_mcchaustickerbot"
             ],
             "png": [
-                "https://t.me/addstickers/LIHKG_xm_static_by_laggykillerstickerbot"
+                "https://t.me/addstickers/LIHKG_xm_static_by_mcchaustickerbot"
             ]
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/xmas/whatsapp/gif/LIHKG_xmas.wastickers?raw=1",
-                "./sticker_packs/xmas/whatsapp/gif/LIHKG_xmas-1.wastickers?raw=1"
+                "./sticker_packs/xm/whatsapp/gif/LIHKG_xm.wastickers?raw=1",
+                "./sticker_packs/xm/whatsapp/gif/LIHKG_xm-1.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/xmas/whatsapp/png/LIHKG_xmas_static-1.wastickers?raw=1",
-                "./sticker_packs/xmas/whatsapp/png/LIHKG_xmas_static.wastickers?raw=1"
+                "./sticker_packs/xm/whatsapp/png/LIHKG_xm_static.wastickers?raw=1",
+                "./sticker_packs/xm/whatsapp/png/LIHKG_xm_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-03-07"
     },
     "mf": {
         "signal": {
