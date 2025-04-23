@@ -913,10 +913,10 @@
     "snake": {
         "signal": {
             "gif": [
-                "https://signal.art/addstickers/#pack_id=cba833899bed07a3467241474d758daa&pack_key=0f31e0aad101550a653bacbb665e5f65f744178087ee2e41afa33c71ba27a5a8"
+                "https://signal.art/addstickers/#pack_id=ea65204a5fb2c7f0e71120a54a665bf1&pack_key=2ae85c8b30e7f2084177df476e14f5b8e16b75d28efa57b5c50a728ac782d6fd"
             ],
             "png": [
-                "https://signal.art/addstickers/#pack_id=43af8cddeef7d77199282f08d11ffc98&pack_key=c887a48adb48b6ca03d89354c18bafc0c16025d9a247efdcc71131919af0c0f6"
+                "https://signal.art/addstickers/#pack_id=04e8517e6851b5d99a8e1f28b8d9c2ef&pack_key=cf6aed892da8fea9b008006aa7e66aba3155f3f487cfddc903399bc2ac4a5fa8"
             ]
         },
         "telegram": {
@@ -937,6 +937,6 @@
                 "./sticker_packs/snake/whatsapp/png/LIHKG_snake_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-22"
+        "update": "2025-04-23"
     }
 }
