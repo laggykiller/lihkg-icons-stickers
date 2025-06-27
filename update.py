@@ -19,7 +19,7 @@ ExportTypesType = Tuple[str, ...]
 FmtsType = Tuple[str, ...]
 RegenPackType = List[Tuple[str, ExportTypesType, FmtsType]]
 
-DEFAULT_EXPORT_TYPES: ExportTypesType = ("signal", "telegram", "whatsapp")
+DEFAULT_EXPORT_TYPES: ExportTypesType = ("signal", "telegram", "telegram_emoji", "whatsapp")
 DEFAULT_FMTS: FmtsType = ("gif", "png")
 
 
@@ -92,6 +92,9 @@ def generate_pack(
     else:
         pack_name = "LIHKG_" + pack + "_static"
         idx = 2
+    if export_type == "telegram_emoji":
+        export_type = "telegram-emoji"
+        pack_name += "_emoji"
 
     output_dir = f"sticker_packs/{pack}/{export_type}/{fmt}"
     print(f"Generating {output_dir}")
@@ -191,8 +194,8 @@ def update_readme(data: LimojiSortedDictType, sticker_packs_url: StickerPacksUrl
     with open("lihkg-icons/jsons/mapping.json") as f:
         mapping: Dict[str, str] = json.load(f)
 
-    body = "| Code | Name | Preview | Date | WhatsApp | Signal | Telegram |\n"
-    body += "| --- | --- | --- | --- | --- | --- | --- |\n"
+    body = "| Code | Name | Preview | Date | WhatsApp | Signal | Telegram | Telegram Emoji |\n"
+    body += "| --- | --- | --- | --- | --- | --- | --- | --- |\n"
 
     for pack, v1 in sticker_packs_url.items():
         pack_zh = mapping.get(pack, pack)
@@ -223,7 +226,7 @@ def update_readme(data: LimojiSortedDictType, sticker_packs_url: StickerPacksUrl
                 for count, link in enumerate(links):
                     link_strs[export_type] += f"[{pack_name}_{count}]({link})<br>"
 
-        body += f"| {pack} | {pack_zh} | ![{preview_name}]({preview_path}) | {v1.get('update')} | {link_strs['whatsapp']} | {link_strs['signal']} | {link_strs['telegram']} |\n"
+        body += f"| {pack} | {pack_zh} | ![{preview_name}]({preview_path}) | {v1.get('update')} | {link_strs['whatsapp']} | {link_strs['signal']} | {link_strs['telegram']} | {link_strs['telegram_emoji']} |\n"
 
     readme = readme.replace("{body}", body)
 

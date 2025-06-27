@@ -82,9 +82,56 @@
         },
         "duration": {
             "min": 0,
-            "max": 3000
+            "max": 2000
         },
         "bg_color": "00000000",
+        "steps": 16,
+        "fake_vid": false,
+        "scale_filter": "nearest",
+        "quantize_method": "fastoctree",
+        "default_emoji": "😀"
+    },
+    "telegram_emoji": {
+        "size_max": {
+            "img": 512000,
+            "vid": 256000
+        },
+        "format": {
+            "img": ".png",
+            "vid": ".webm"
+        },
+        "fps": {
+            "min": 30,
+            "max": 30,
+            "power": -0.5
+        },
+        "res": {
+            "w": {
+                "min": 100,
+                "max": 100
+            },
+            "h": {
+                "min": 100,
+                "max": 100
+            },
+            "power": 1
+        },
+        "quality": {
+            "min": 10,
+            "max": 95,
+            "power": 3
+        },
+        "color": {
+            "min": 32,
+            "max": 257,
+            "power": 3
+        },
+        "duration": {
+            "min": 0,
+            "max": 3000
+        },
+        "padding_percent": 0,
+        "bg_color": "",
         "steps": 16,
         "fake_vid": false,
         "scale_filter": "nearest",

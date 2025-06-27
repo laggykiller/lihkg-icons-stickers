@@ -26,7 +26,15 @@
                 "./sticker_packs/normal/whatsapp/png/LIHKG_normal_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_normal_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_normal_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "dog": {
         "signal": {
@@ -56,7 +64,15 @@
                 "./sticker_packs/dog/whatsapp/png/LIHKG_dog_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_dog_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_dog_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "husky": {
         "signal": {
@@ -83,7 +99,15 @@
                 "./sticker_packs/husky/whatsapp/png/LIHKG_husky_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-27",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_husky_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_husky_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "lm2": {
         "signal": {
@@ -116,7 +140,15 @@
                 "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-03-07"
+        "update": "2025-06-27",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_lm2_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_lm2_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "fs": {
         "signal": {
@@ -145,7 +177,15 @@
                 "./sticker_packs/fs/whatsapp/png/LIHKG_fs_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-27",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_fs_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_fs_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "big": {
         "signal": {
@@ -175,7 +215,15 @@
                 "./sticker_packs/big/whatsapp/png/LIHKG_big_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-27",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_big_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_big_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "lomoji": {
         "signal": {
@@ -204,7 +252,15 @@
                 "./sticker_packs/lomoji/whatsapp/png/LIHKG_lomoji_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-27",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_lomoji_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_lomoji_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "pig": {
         "signal": {
@@ -233,7 +289,15 @@
                 "./sticker_packs/pig/whatsapp/png/LIHKG_pig_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_pig_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_pig_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "mouse": {
         "signal": {
@@ -262,7 +326,15 @@
                 "./sticker_packs/mouse/whatsapp/png/LIHKG_mouse_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_mouse_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_mouse_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "cat": {
         "signal": {
@@ -289,7 +361,15 @@
                 "./sticker_packs/cat/whatsapp/png/LIHKG_cat_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_cat_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_cat_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "cow": {
         "signal": {
@@ -318,7 +398,12 @@
                 "./sticker_packs/cow/whatsapp/png/LIHKG_cow_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-27",
+        "telegram_emoji": {
+            "png": [
+                "https://t.me/addemoji/LIHKG_cow_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "tiger": {
         "signal": {
@@ -347,7 +432,15 @@
                 "./sticker_packs/tiger/whatsapp/png/LIHKG_tiger_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-27",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_tiger_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_tiger_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "rabbit": {
         "signal": {
@@ -376,7 +469,15 @@
                 "./sticker_packs/rabbit/whatsapp/png/LIHKG_rabbit_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-27",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_rabbit_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_rabbit_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "dragon": {
         "signal": {
@@ -405,7 +506,15 @@
                 "./sticker_packs/dragon/whatsapp/png/LIHKG_dragon_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-27",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_dragon_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_dragon_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "hb": {
         "signal": {
@@ -434,7 +543,15 @@
                 "./sticker_packs/hb/whatsapp/png/LIHKG_hb_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-22"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_hb_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_hb_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "fatc": {
         "signal": {
@@ -463,7 +580,15 @@
                 "./sticker_packs/fatc/whatsapp/png/LIHKG_fatc_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-03-07"
+        "update": "2025-06-27",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_fatc_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_fatc_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "fifa": {
         "signal": {
@@ -495,7 +620,15 @@
                 "./sticker_packs/fifa/whatsapp/png/LIHKG_fifa_static-2.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_fifa_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_fifa_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "rip": {
         "signal": {
@@ -522,7 +655,15 @@
                 "./sticker_packs/rip/whatsapp/png/LIHKG_rip_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-22"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_rip_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_rip_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "xm": {
         "signal": {
@@ -535,10 +676,10 @@
         },
         "telegram": {
             "gif": [
-                "https://t.me/addstickers/LIHKG_xm_by_mcchaustickerbot"
+                "https://t.me/addstickers/LIHKG_xm_by_laggykillerstickerbot"
             ],
             "png": [
-                "https://t.me/addstickers/LIHKG_xm_static_by_mcchaustickerbot"
+                "https://t.me/addstickers/LIHKG_xm_static_by_laggykillerstickerbot"
             ]
         },
         "whatsapp": {
@@ -551,7 +692,15 @@
                 "./sticker_packs/xm/whatsapp/png/LIHKG_xm_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-03-07"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_xm_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_xm_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "mf": {
         "signal": {
@@ -580,7 +729,15 @@
                 "./sticker_packs/mf/whatsapp/png/LIHKG_mf_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_mf_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_mf_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "dogxm": {
         "signal": {
@@ -593,8 +750,7 @@
         },
         "telegram": {
             "gif": [
-                "https://t.me/addstickers/LIHKG_dogxm_by_laggykillerstickerbot",
-                "https://t.me/addstickers/LIHKG_dogxm_1_by_laggykillerstickerbot"
+                "https://t.me/addstickers/LIHKG_dogxm_by_laggykillerstickerbot"
             ],
             "png": [
                 "https://t.me/addstickers/LIHKG_dogxm_static_by_laggykillerstickerbot"
@@ -610,7 +766,15 @@
                 "./sticker_packs/dogxm/whatsapp/png/LIHKG_dogxm_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_dogxm_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_dogxm_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "lm2xm": {
         "signal": {
@@ -623,8 +787,7 @@
         },
         "telegram": {
             "gif": [
-                "https://t.me/addstickers/LIHKG_lm2xm_by_laggykillerstickerbot",
-                "https://t.me/addstickers/LIHKG_lm2xm_1_by_laggykillerstickerbot"
+                "https://t.me/addstickers/LIHKG_lm2xm_by_laggykillerstickerbot"
             ],
             "png": [
                 "https://t.me/addstickers/LIHKG_lm2xm_static_by_laggykillerstickerbot"
@@ -642,7 +805,15 @@
                 "./sticker_packs/lm2xm/whatsapp/png/LIHKG_lm2xm_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_lm2xm_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_lm2xm_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "lny": {
         "signal": {
@@ -674,7 +845,15 @@
                 "./sticker_packs/lny/whatsapp/png/LIHKG_lny_static-2.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_lny_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_lny_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "lm2lny": {
         "signal": {
@@ -706,7 +885,15 @@
                 "./sticker_packs/lm2lny/whatsapp/png/LIHKG_lm2lny_static-2.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-27",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_lm2lny_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_lm2lny_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "pigxm": {
         "signal": {
@@ -719,8 +906,7 @@
         },
         "telegram": {
             "gif": [
-                "https://t.me/addstickers/LIHKG_pigxm_by_laggykillerstickerbot",
-                "https://t.me/addstickers/LIHKG_pigxm_1_by_laggykillerstickerbot"
+                "https://t.me/addstickers/LIHKG_pigxm_by_laggykillerstickerbot"
             ],
             "png": [
                 "https://t.me/addstickers/LIHKG_pigxm_static_by_laggykillerstickerbot"
@@ -736,7 +922,15 @@
                 "./sticker_packs/pigxm/whatsapp/png/LIHKG_pigxm_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_pigxm_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_pigxm_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "mousexm": {
         "signal": {
@@ -765,7 +959,15 @@
                 "./sticker_packs/mousexm/whatsapp/png/LIHKG_mousexm_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_mousexm_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_mousexm_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "catxm": {
         "signal": {
@@ -792,7 +994,15 @@
                 "./sticker_packs/catxm/whatsapp/png/LIHKG_catxm_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_catxm_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_catxm_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "cowxm": {
         "signal": {
@@ -821,7 +1031,15 @@
                 "./sticker_packs/cowxm/whatsapp/png/LIHKG_cowxm_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_cowxm_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_cowxm_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "tigerxm": {
         "signal": {
@@ -850,7 +1068,15 @@
                 "./sticker_packs/tigerxm/whatsapp/png/LIHKG_tigerxm_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_tigerxm_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_tigerxm_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "rabbitxm": {
         "signal": {
@@ -879,7 +1105,15 @@
                 "./sticker_packs/rabbitxm/whatsapp/png/LIHKG_rabbitxm_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_rabbitxm_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_rabbitxm_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "dragonxm": {
         "signal": {
@@ -908,7 +1142,15 @@
                 "./sticker_packs/dragonxm/whatsapp/png/LIHKG_dragonxm_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-01-01"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_dragonxm_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_dragonxm_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     },
     "snake": {
         "signal": {
@@ -937,6 +1179,14 @@
                 "./sticker_packs/snake/whatsapp/png/LIHKG_snake_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-04-23"
+        "update": "2025-06-25",
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_snake_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_snake_static_emoji_by_laggykillerstickerbot"
+            ]
+        }
     }
 }
