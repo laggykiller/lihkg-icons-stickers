@@ -705,10 +705,10 @@
     "mf": {
         "signal": {
             "gif": [
-                "https://signal.art/addstickers/#pack_id=f06534b8c43a3b6915fd15c96c8fa993&pack_key=f8886b88166e7c55a88154299ba49da9bb01d5fabf79ff6b0daa8a167cb3f97b"
+                "https://signal.art/addstickers/#pack_id=6421353914acbae1aad397dd0e099032&pack_key=2b20df4fde330a0ef24c71b13e5f164255333f7c7f172027b9bcca2e3ae29094"
             ],
             "png": [
-                "https://signal.art/addstickers/#pack_id=136eb50dbe0153e6a81cdf6cf492abfd&pack_key=ac5a6a51054019b375238757a25c6650389a50ac71dbbb9639faeae6f6c4a186"
+                "https://signal.art/addstickers/#pack_id=d81a51a8c8dabb727237ce7dfb787403&pack_key=9819fd930c8ce024ac6cb935d6c71c2238893514be414632477eb3b2cac5289b"
             ]
         },
         "telegram": {
@@ -729,7 +729,7 @@
                 "./sticker_packs/mf/whatsapp/png/LIHKG_mf_static-1.wastickers?raw=1"
             ]
         },
-        "update": "2025-06-25",
+        "update": "2025-10-05",
         "telegram_emoji": {
             "gif": [
                 "https://t.me/addemoji/LIHKG_mf_emoji_by_laggykillerstickerbot"
