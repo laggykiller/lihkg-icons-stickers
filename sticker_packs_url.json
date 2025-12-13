@@ -1188,5 +1188,42 @@
                 "https://t.me/addemoji/LIHKG_snake_static_emoji_by_laggykillerstickerbot"
             ]
         }
+    },
+    "snakexm": {
+        "signal": {
+            "gif": [
+                "https://signal.art/addstickers/#pack_id=1802d60b7f80ccd6ad4f4f5f0dba71cc&pack_key=d8f741b4286e96ec889e5f9eef94387e2e3a1072107154414fd812d8000feafc"
+            ],
+            "png": [
+                "https://signal.art/addstickers/#pack_id=c98059486a3445b82ba0f87705baacb1&pack_key=2262896d5472c4bfe5d051db1a0ea0f5cc8ba4578e88b8594be4783ee12304a1"
+            ]
+        },
+        "telegram": {
+            "gif": [
+                "https://t.me/addstickers/LIHKG_snakexm_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addstickers/LIHKG_snakexm_static_by_laggykillerstickerbot"
+            ]
+        },
+        "telegram_emoji": {
+            "gif": [
+                "https://t.me/addemoji/LIHKG_snakexm_emoji_by_laggykillerstickerbot"
+            ],
+            "png": [
+                "https://t.me/addemoji/LIHKG_snakexm_static_emoji_by_laggykillerstickerbot"
+            ]
+        },
+        "whatsapp": {
+            "gif": [
+                "./sticker_packs/snakexm/whatsapp/gif/LIHKG_snakexm-1.wastickers?raw=1",
+                "./sticker_packs/snakexm/whatsapp/gif/LIHKG_snakexm.wastickers?raw=1"
+            ],
+            "png": [
+                "./sticker_packs/snakexm/whatsapp/png/LIHKG_snakexm_static-1.wastickers?raw=1",
+                "./sticker_packs/snakexm/whatsapp/png/LIHKG_snakexm_static.wastickers?raw=1"
+            ]
+        },
+        "update": "2025-12-13"
     }
 }
