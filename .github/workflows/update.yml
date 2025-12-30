@@ -3,7 +3,7 @@ name: Update stickers
 on:
   schedule:
     - cron: "2 0 * * *"
-  push:
+  workflow_dispatch:
 
 jobs:
   update:

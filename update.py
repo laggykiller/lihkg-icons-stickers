@@ -127,45 +127,58 @@ def generate_pack(
             pack_name,
             f"--export-{export_type}",
             "--no-confirm",
+            "--no-progress"
         ]
 
         if pack == "mf":
             if export_type == "whatsapp":
-                cmd.append("--fps-min")
-                cmd.append("8")
-                cmd.append("--fps-power")
-                cmd.append("-1")
-                cmd.append("--duration-max")
-                cmd.append("3000")
+                cmd.extend((
+                    "--fps-min",
+                    "8",
+                    "--fps-power",
+                    "-1",
+                    "--duration-max",
+                    "3000",
+                ))
             elif export_type == "telegram":
-                cmd.append("--fps-min")
-                cmd.append("4")
-                cmd.append("--fps-power")
-                cmd.append("-1")
-                cmd.append("--duration-max")
-                cmd.append("2000")
+                cmd.extend((
+                    "--fps-min",
+                    "4",
+                    "--fps-power",
+                    "-1",
+                    "--duration-max",
+                    "2000",
+                ))
 
         if SIGNAL_UUID:
-            cmd.append(f"--signal-uuid")
-            cmd.append(SIGNAL_UUID)
+            cmd.extend((
+                f"--signal-uuid",
+                SIGNAL_UUID
+            ))
         else:
             print("WARNING: SIGNAL_UUID not set")
 
         if SIGNAL_PASSWORD:
-            cmd.append(f"--signal-password")
-            cmd.append(SIGNAL_PASSWORD)
+            cmd.extend((
+                f"--signal-password",
+                SIGNAL_PASSWORD
+            ))
         else:
             print("WARNING: SIGNAL_PASSWORD not set")
 
         if TELEGRAM_TOKEN:
-            cmd.append(f"--telegram-token")
-            cmd.append(TELEGRAM_TOKEN)
+            cmd.extend((
+                f"--telegram-token",
+                TELEGRAM_TOKEN
+            ))
         else:
             print("WARNING: TELEGRAM_TOKEN not set")
 
         if TELEGRAM_USERID:
-            cmd.append(f"--telegram-userid")
-            cmd.append(TELEGRAM_USERID)
+            cmd.extend((
+                f"--telegram-userid",
+                TELEGRAM_USERID
+            ))
         else:
             print("WARNING: TELEGRAM_USERID not set")
 
@@ -180,9 +193,9 @@ def generate_pack(
     else:
         os.remove(f"{output_dir}/export-result.txt")
         wastickers_urls: List[str] = []
-        for f in os.listdir(output_dir):
-            if os.path.splitext(f)[1] == ".wastickers":
-                url = f"./{output_dir}/{f}?raw=1"
+        for i in os.listdir(output_dir):
+            if os.path.splitext(i)[1] == ".wastickers":
+                url = f"./{output_dir}/{i}?raw=1"
                 wastickers_urls.append(url)
         return wastickers_urls
 
