@@ -972,10 +972,10 @@
     "catxm": {
         "signal": {
             "gif": [
-                "https://signal.art/addstickers/#pack_id=4aa8a43e02c9c67505873bf0fc230413&pack_key=7547b9e54781768becf46b5746d09c637937f7730a3f2455527a40b9dcb9d678"
+                "https://signal.art/addstickers/#pack_id=c32d9a0cc02b731376c3b7b5236b76b7&pack_key=3d2fdefa58f0b84a203c8293008ae1b120476a78f97a43e7c8ccbdbf9dc423b9"
             ],
             "png": [
-                "https://signal.art/addstickers/#pack_id=2843659db88c4d1b4c6fb1727b3b7061&pack_key=fa57ebc25dce5f5d42f2777aec410c6149a7ed4fd1fc1fa374717c48798c9a67"
+                "https://signal.art/addstickers/#pack_id=5225d878c002f22636c76fe7d4017e88&pack_key=8ef380e9dd648ed8129615b7e2d881d79cb370d8641179be2d535b9e7350e874"
             ]
         },
         "telegram": {
@@ -994,7 +994,7 @@
                 "./sticker_packs/catxm/whatsapp/png/LIHKG_catxm_static.wastickers?raw=1"
             ]
         },
-        "update": "2025-06-25",
+        "update": "2025-12-30",
         "telegram_emoji": {
             "gif": [
                 "https://t.me/addemoji/LIHKG_catxm_emoji_by_laggykillerstickerbot"
