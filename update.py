@@ -193,7 +193,10 @@ def generate_pack(
     else:
         os.remove(f"{output_dir}/export-result.txt")
         wastickers_urls: List[str] = []
-        for i in os.listdir(output_dir):
+        # Fix order of files to ["normal.wastickers", "normal-1.wastickers", "normal-2.wastickers"]
+        output_dir_files = sorted(os.listdir(output_dir))
+        output_dir_files.insert(0, output_dir_files.pop())
+        for i in output_dir_files:
             if os.path.splitext(i)[1] == ".wastickers":
                 url = f"./{output_dir}/{i}?raw=1"
                 wastickers_urls.append(url)

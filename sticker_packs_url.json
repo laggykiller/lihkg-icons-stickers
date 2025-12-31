@@ -18,8 +18,8 @@
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/normal/whatsapp/gif/LIHKG_normal-1.wastickers?raw=1",
-                "./sticker_packs/normal/whatsapp/gif/LIHKG_normal.wastickers?raw=1"
+                "./sticker_packs/normal/whatsapp/gif/LIHKG_normal.wastickers?raw=1",
+                "./sticker_packs/normal/whatsapp/gif/LIHKG_normal-1.wastickers?raw=1"
             ],
             "png": [
                 "./sticker_packs/normal/whatsapp/png/LIHKG_normal_static.wastickers?raw=1",
@@ -128,16 +128,16 @@
         },
         "whatsapp": {
             "gif": [
+                "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2-1.wastickers?raw=1",
                 "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2-2.wastickers?raw=1",
                 "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2-3.wastickers?raw=1",
-                "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2.wastickers?raw=1",
-                "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2-1.wastickers?raw=1"
+                "./sticker_packs/lm2/whatsapp/gif/LIHKG_lm2.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static.wastickers?raw=1",
+                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-1.wastickers?raw=1",
                 "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-2.wastickers?raw=1",
                 "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-3.wastickers?raw=1",
-                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static-1.wastickers?raw=1"
+                "./sticker_packs/lm2/whatsapp/png/LIHKG_lm2_static.wastickers?raw=1"
             ]
         },
         "update": "2025-06-27",
@@ -207,8 +207,8 @@
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/big/whatsapp/gif/LIHKG_big-1.wastickers?raw=1",
-                "./sticker_packs/big/whatsapp/gif/LIHKG_big.wastickers?raw=1"
+                "./sticker_packs/big/whatsapp/gif/LIHKG_big.wastickers?raw=1",
+                "./sticker_packs/big/whatsapp/gif/LIHKG_big-1.wastickers?raw=1"
             ],
             "png": [
                 "./sticker_packs/big/whatsapp/png/LIHKG_big_static.wastickers?raw=1",
@@ -248,8 +248,8 @@
                 "./sticker_packs/lomoji/whatsapp/gif/LIHKG_lomoji-1.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/lomoji/whatsapp/png/LIHKG_lomoji_static-1.wastickers?raw=1",
-                "./sticker_packs/lomoji/whatsapp/png/LIHKG_lomoji_static.wastickers?raw=1"
+                "./sticker_packs/lomoji/whatsapp/png/LIHKG_lomoji_static.wastickers?raw=1",
+                "./sticker_packs/lomoji/whatsapp/png/LIHKG_lomoji_static-1.wastickers?raw=1"
             ]
         },
         "update": "2025-06-27",
@@ -285,8 +285,8 @@
                 "./sticker_packs/pig/whatsapp/gif/LIHKG_pig-1.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/pig/whatsapp/png/LIHKG_pig_static-1.wastickers?raw=1",
-                "./sticker_packs/pig/whatsapp/png/LIHKG_pig_static.wastickers?raw=1"
+                "./sticker_packs/pig/whatsapp/png/LIHKG_pig_static.wastickers?raw=1",
+                "./sticker_packs/pig/whatsapp/png/LIHKG_pig_static-1.wastickers?raw=1"
             ]
         },
         "update": "2025-06-25",
@@ -318,12 +318,12 @@
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/mouse/whatsapp/gif/LIHKG_mouse-1.wastickers?raw=1",
-                "./sticker_packs/mouse/whatsapp/gif/LIHKG_mouse.wastickers?raw=1"
+                "./sticker_packs/mouse/whatsapp/gif/LIHKG_mouse.wastickers?raw=1",
+                "./sticker_packs/mouse/whatsapp/gif/LIHKG_mouse-1.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/mouse/whatsapp/png/LIHKG_mouse_static-1.wastickers?raw=1",
-                "./sticker_packs/mouse/whatsapp/png/LIHKG_mouse_static.wastickers?raw=1"
+                "./sticker_packs/mouse/whatsapp/png/LIHKG_mouse_static.wastickers?raw=1",
+                "./sticker_packs/mouse/whatsapp/png/LIHKG_mouse_static-1.wastickers?raw=1"
             ]
         },
         "update": "2025-06-25",
@@ -394,8 +394,8 @@
                 "./sticker_packs/cow/whatsapp/gif/LIHKG_cow-1.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/cow/whatsapp/png/LIHKG_cow_static-1.wastickers?raw=1",
-                "./sticker_packs/cow/whatsapp/png/LIHKG_cow_static.wastickers?raw=1"
+                "./sticker_packs/cow/whatsapp/png/LIHKG_cow_static.wastickers?raw=1",
+                "./sticker_packs/cow/whatsapp/png/LIHKG_cow_static-1.wastickers?raw=1"
             ]
         },
         "update": "2025-06-27",
@@ -428,8 +428,8 @@
                 "./sticker_packs/tiger/whatsapp/gif/LIHKG_tiger-1.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/tiger/whatsapp/png/LIHKG_tiger_static-1.wastickers?raw=1",
-                "./sticker_packs/tiger/whatsapp/png/LIHKG_tiger_static.wastickers?raw=1"
+                "./sticker_packs/tiger/whatsapp/png/LIHKG_tiger_static.wastickers?raw=1",
+                "./sticker_packs/tiger/whatsapp/png/LIHKG_tiger_static-1.wastickers?raw=1"
             ]
         },
         "update": "2025-06-27",
@@ -465,8 +465,8 @@
                 "./sticker_packs/rabbit/whatsapp/gif/LIHKG_rabbit-1.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/rabbit/whatsapp/png/LIHKG_rabbit_static-1.wastickers?raw=1",
-                "./sticker_packs/rabbit/whatsapp/png/LIHKG_rabbit_static.wastickers?raw=1"
+                "./sticker_packs/rabbit/whatsapp/png/LIHKG_rabbit_static.wastickers?raw=1",
+                "./sticker_packs/rabbit/whatsapp/png/LIHKG_rabbit_static-1.wastickers?raw=1"
             ]
         },
         "update": "2025-06-27",
@@ -502,8 +502,8 @@
                 "./sticker_packs/dragon/whatsapp/gif/LIHKG_dragon-1.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/dragon/whatsapp/png/LIHKG_dragon_static-1.wastickers?raw=1",
-                "./sticker_packs/dragon/whatsapp/png/LIHKG_dragon_static.wastickers?raw=1"
+                "./sticker_packs/dragon/whatsapp/png/LIHKG_dragon_static.wastickers?raw=1",
+                "./sticker_packs/dragon/whatsapp/png/LIHKG_dragon_static-1.wastickers?raw=1"
             ]
         },
         "update": "2025-06-27",
@@ -535,8 +535,8 @@
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/hb/whatsapp/gif/LIHKG_hb.wastickers?raw=1",
-                "./sticker_packs/hb/whatsapp/gif/LIHKG_hb-1.wastickers?raw=1"
+                "./sticker_packs/hb/whatsapp/gif/LIHKG_hb-1.wastickers?raw=1",
+                "./sticker_packs/hb/whatsapp/gif/LIHKG_hb.wastickers?raw=1"
             ],
             "png": [
                 "./sticker_packs/hb/whatsapp/png/LIHKG_hb_static-1.wastickers?raw=1",
@@ -576,8 +576,8 @@
                 "./sticker_packs/fatc/whatsapp/gif/LIHKG_fatc.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/fatc/whatsapp/png/LIHKG_fatc_static.wastickers?raw=1",
-                "./sticker_packs/fatc/whatsapp/png/LIHKG_fatc_static-1.wastickers?raw=1"
+                "./sticker_packs/fatc/whatsapp/png/LIHKG_fatc_static-1.wastickers?raw=1",
+                "./sticker_packs/fatc/whatsapp/png/LIHKG_fatc_static.wastickers?raw=1"
             ]
         },
         "update": "2025-06-27",
@@ -610,9 +610,9 @@
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/fifa/whatsapp/gif/LIHKG_fifa-2.wastickers?raw=1",
                 "./sticker_packs/fifa/whatsapp/gif/LIHKG_fifa.wastickers?raw=1",
-                "./sticker_packs/fifa/whatsapp/gif/LIHKG_fifa-1.wastickers?raw=1"
+                "./sticker_packs/fifa/whatsapp/gif/LIHKG_fifa-1.wastickers?raw=1",
+                "./sticker_packs/fifa/whatsapp/gif/LIHKG_fifa-2.wastickers?raw=1"
             ],
             "png": [
                 "./sticker_packs/fifa/whatsapp/png/LIHKG_fifa_static.wastickers?raw=1",
@@ -684,12 +684,12 @@
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/xm/whatsapp/gif/LIHKG_xm.wastickers?raw=1",
-                "./sticker_packs/xm/whatsapp/gif/LIHKG_xm-1.wastickers?raw=1"
+                "./sticker_packs/xm/whatsapp/gif/LIHKG_xm-1.wastickers?raw=1",
+                "./sticker_packs/xm/whatsapp/gif/LIHKG_xm.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/xm/whatsapp/png/LIHKG_xm_static.wastickers?raw=1",
-                "./sticker_packs/xm/whatsapp/png/LIHKG_xm_static-1.wastickers?raw=1"
+                "./sticker_packs/xm/whatsapp/png/LIHKG_xm_static-1.wastickers?raw=1",
+                "./sticker_packs/xm/whatsapp/png/LIHKG_xm_static.wastickers?raw=1"
             ]
         },
         "update": "2025-06-25",
@@ -725,8 +725,8 @@
                 "./sticker_packs/mf/whatsapp/gif/LIHKG_mf.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/mf/whatsapp/png/LIHKG_mf_static.wastickers?raw=1",
-                "./sticker_packs/mf/whatsapp/png/LIHKG_mf_static-1.wastickers?raw=1"
+                "./sticker_packs/mf/whatsapp/png/LIHKG_mf_static-1.wastickers?raw=1",
+                "./sticker_packs/mf/whatsapp/png/LIHKG_mf_static.wastickers?raw=1"
             ]
         },
         "update": "2025-10-05",
@@ -795,14 +795,14 @@
         },
         "whatsapp": {
             "gif": [
+                "./sticker_packs/lm2xm/whatsapp/gif/LIHKG_lm2xm.wastickers?raw=1",
                 "./sticker_packs/lm2xm/whatsapp/gif/LIHKG_lm2xm-1.wastickers?raw=1",
-                "./sticker_packs/lm2xm/whatsapp/gif/LIHKG_lm2xm-2.wastickers?raw=1",
-                "./sticker_packs/lm2xm/whatsapp/gif/LIHKG_lm2xm.wastickers?raw=1"
+                "./sticker_packs/lm2xm/whatsapp/gif/LIHKG_lm2xm-2.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/lm2xm/whatsapp/png/LIHKG_lm2xm_static-2.wastickers?raw=1",
                 "./sticker_packs/lm2xm/whatsapp/png/LIHKG_lm2xm_static.wastickers?raw=1",
-                "./sticker_packs/lm2xm/whatsapp/png/LIHKG_lm2xm_static-1.wastickers?raw=1"
+                "./sticker_packs/lm2xm/whatsapp/png/LIHKG_lm2xm_static-1.wastickers?raw=1",
+                "./sticker_packs/lm2xm/whatsapp/png/LIHKG_lm2xm_static-2.wastickers?raw=1"
             ]
         },
         "update": "2025-06-25",
@@ -836,12 +836,12 @@
         "whatsapp": {
             "gif": [
                 "./sticker_packs/lny/whatsapp/gif/LIHKG_lny.wastickers?raw=1",
-                "./sticker_packs/lny/whatsapp/gif/LIHKG_lny-2.wastickers?raw=1",
-                "./sticker_packs/lny/whatsapp/gif/LIHKG_lny-1.wastickers?raw=1"
+                "./sticker_packs/lny/whatsapp/gif/LIHKG_lny-1.wastickers?raw=1",
+                "./sticker_packs/lny/whatsapp/gif/LIHKG_lny-2.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/lny/whatsapp/png/LIHKG_lny_static-1.wastickers?raw=1",
                 "./sticker_packs/lny/whatsapp/png/LIHKG_lny_static.wastickers?raw=1",
+                "./sticker_packs/lny/whatsapp/png/LIHKG_lny_static-1.wastickers?raw=1",
                 "./sticker_packs/lny/whatsapp/png/LIHKG_lny_static-2.wastickers?raw=1"
             ]
         },
@@ -875,9 +875,9 @@
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/lm2lny/whatsapp/gif/LIHKG_lm2lny-2.wastickers?raw=1",
+                "./sticker_packs/lm2lny/whatsapp/gif/LIHKG_lm2lny.wastickers?raw=1",
                 "./sticker_packs/lm2lny/whatsapp/gif/LIHKG_lm2lny-1.wastickers?raw=1",
-                "./sticker_packs/lm2lny/whatsapp/gif/LIHKG_lm2lny.wastickers?raw=1"
+                "./sticker_packs/lm2lny/whatsapp/gif/LIHKG_lm2lny-2.wastickers?raw=1"
             ],
             "png": [
                 "./sticker_packs/lm2lny/whatsapp/png/LIHKG_lm2lny_static.wastickers?raw=1",
@@ -918,8 +918,8 @@
                 "./sticker_packs/pigxm/whatsapp/gif/LIHKG_pigxm-1.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/pigxm/whatsapp/png/LIHKG_pigxm_static-1.wastickers?raw=1",
-                "./sticker_packs/pigxm/whatsapp/png/LIHKG_pigxm_static.wastickers?raw=1"
+                "./sticker_packs/pigxm/whatsapp/png/LIHKG_pigxm_static.wastickers?raw=1",
+                "./sticker_packs/pigxm/whatsapp/png/LIHKG_pigxm_static-1.wastickers?raw=1"
             ]
         },
         "update": "2025-06-25",
@@ -951,12 +951,12 @@
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/mousexm/whatsapp/gif/LIHKG_mousexm-1.wastickers?raw=1",
-                "./sticker_packs/mousexm/whatsapp/gif/LIHKG_mousexm.wastickers?raw=1"
+                "./sticker_packs/mousexm/whatsapp/gif/LIHKG_mousexm.wastickers?raw=1",
+                "./sticker_packs/mousexm/whatsapp/gif/LIHKG_mousexm-1.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/mousexm/whatsapp/png/LIHKG_mousexm_static-1.wastickers?raw=1",
-                "./sticker_packs/mousexm/whatsapp/png/LIHKG_mousexm_static.wastickers?raw=1"
+                "./sticker_packs/mousexm/whatsapp/png/LIHKG_mousexm_static.wastickers?raw=1",
+                "./sticker_packs/mousexm/whatsapp/png/LIHKG_mousexm_static-1.wastickers?raw=1"
             ]
         },
         "update": "2025-06-25",
@@ -1064,8 +1064,8 @@
                 "./sticker_packs/tigerxm/whatsapp/gif/LIHKG_tigerxm-1.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/tigerxm/whatsapp/png/LIHKG_tigerxm_static-1.wastickers?raw=1",
-                "./sticker_packs/tigerxm/whatsapp/png/LIHKG_tigerxm_static.wastickers?raw=1"
+                "./sticker_packs/tigerxm/whatsapp/png/LIHKG_tigerxm_static.wastickers?raw=1",
+                "./sticker_packs/tigerxm/whatsapp/png/LIHKG_tigerxm_static-1.wastickers?raw=1"
             ]
         },
         "update": "2025-06-25",
@@ -1097,8 +1097,8 @@
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/rabbitxm/whatsapp/gif/LIHKG_rabbitxm-1.wastickers?raw=1",
-                "./sticker_packs/rabbitxm/whatsapp/gif/LIHKG_rabbitxm.wastickers?raw=1"
+                "./sticker_packs/rabbitxm/whatsapp/gif/LIHKG_rabbitxm.wastickers?raw=1",
+                "./sticker_packs/rabbitxm/whatsapp/gif/LIHKG_rabbitxm-1.wastickers?raw=1"
             ],
             "png": [
                 "./sticker_packs/rabbitxm/whatsapp/png/LIHKG_rabbitxm_static.wastickers?raw=1",
@@ -1134,12 +1134,12 @@
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/dragonxm/whatsapp/gif/LIHKG_dragonxm-1.wastickers?raw=1",
-                "./sticker_packs/dragonxm/whatsapp/gif/LIHKG_dragonxm.wastickers?raw=1"
+                "./sticker_packs/dragonxm/whatsapp/gif/LIHKG_dragonxm.wastickers?raw=1",
+                "./sticker_packs/dragonxm/whatsapp/gif/LIHKG_dragonxm-1.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/dragonxm/whatsapp/png/LIHKG_dragonxm_static-1.wastickers?raw=1",
-                "./sticker_packs/dragonxm/whatsapp/png/LIHKG_dragonxm_static.wastickers?raw=1"
+                "./sticker_packs/dragonxm/whatsapp/png/LIHKG_dragonxm_static.wastickers?raw=1",
+                "./sticker_packs/dragonxm/whatsapp/png/LIHKG_dragonxm_static-1.wastickers?raw=1"
             ]
         },
         "update": "2025-06-25",
@@ -1171,8 +1171,8 @@
         },
         "whatsapp": {
             "gif": [
-                "./sticker_packs/snake/whatsapp/gif/LIHKG_snake.wastickers?raw=1",
-                "./sticker_packs/snake/whatsapp/gif/LIHKG_snake-1.wastickers?raw=1"
+                "./sticker_packs/snake/whatsapp/gif/LIHKG_snake-1.wastickers?raw=1",
+                "./sticker_packs/snake/whatsapp/gif/LIHKG_snake.wastickers?raw=1"
             ],
             "png": [
                 "./sticker_packs/snake/whatsapp/png/LIHKG_snake_static-1.wastickers?raw=1",
@@ -1257,8 +1257,8 @@
                 "./sticker_packs/horse/whatsapp/gif/LIHKG_horse.wastickers?raw=1"
             ],
             "png": [
-                "./sticker_packs/horse/whatsapp/png/LIHKG_horse_static.wastickers?raw=1",
-                "./sticker_packs/horse/whatsapp/png/LIHKG_horse_static-1.wastickers?raw=1"
+                "./sticker_packs/horse/whatsapp/png/LIHKG_horse_static-1.wastickers?raw=1",
+                "./sticker_packs/horse/whatsapp/png/LIHKG_horse_static.wastickers?raw=1"
             ]
         },
         "update": "2025-12-31"
